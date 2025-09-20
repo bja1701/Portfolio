@@ -1,0 +1,16 @@
+<!-- Placeholder for project demo images -->
+<!-- Replace these files with screenshots or demos of your actual projects -->
+<!-- Recommended size: 800x600 pixels or 16:9 aspect ratio -->
+<!-- Supported formats: JPG, PNG, GIF -->
+
+Project Image Placeholders:
+- project1-demo.png: For Autonomous Robot Navigation project
+- project2-demo.png: For IoT Environmental Monitor project  
+- project3-demo.png: For FPGA Signal Processor project
+
+Tips for great project images:
+1. Use screenshots showing your project in action
+2. Include before/after comparisons when possible
+3. Consider short animated GIFs for dynamic demonstrations
+4. Ensure images are high quality and professional looking
+5. Show the user interface, results, or physical hardware

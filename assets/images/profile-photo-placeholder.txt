@@ -1,0 +1,7 @@
+<!-- Placeholder for profile photo -->
+<!-- Replace this file with your professional headshot -->
+<!-- Recommended size: 400x400 pixels, square format -->
+<!-- Supported formats: JPG, PNG -->
+
+This file serves as a placeholder for your profile photo.
+Please replace assets/images/profile-photo.jpg with your actual professional headshot.

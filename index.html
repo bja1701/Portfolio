@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Computer Engineering Student</title>
+    <meta name="description" content="BYU Computer Engineering student passionate about embedded systems and software development">
+    
+    <!-- GitHub Pages / Social Media Optimization -->
+    <meta property="og:title" content="Your Name - Computer Engineering Portfolio">
+    <meta property="og:description" content="BYU Computer Engineering student passionate about embedded systems and software development">
+    <meta property="og:image" content="./assets/images/profile-photo.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name - Computer Engineering Portfolio">
+    <meta name="twitter:description" content="BYU Computer Engineering student passionate about embedded systems and software development">
+    <meta name="twitter:image" content="./assets/images/profile-photo.jpg">
+    
+    <!-- Favicon (add your own favicon.ico to root directory) -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">YourName</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/images/profile-photo.jpg" alt="Your Name" class="profile-photo">
+                </div>
+                <h1 class="hero-title">Your Name</h1>
+                <p class="hero-subtitle">BYU Computer Engineering student passionate about embedded systems and software development.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Here are some of the projects I've worked on that showcase my technical skills and problem-solving abilities.</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1-demo.png" alt="Autonomous Robot Navigation">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link live-demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/yourusername/robot-navigation" class="project-link github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Autonomous Robot Navigation</h3>
+                        <p class="project-description">
+                            Developed an autonomous navigation system for a mobile robot using computer vision and path planning algorithms. 
+                            The system can navigate complex environments while avoiding obstacles in real-time.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">ROS</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-story">
+                            <strong>Challenge:</strong> Real-time obstacle detection and path optimization.<br>
+                            <strong>Solution:</strong> Implemented SLAM algorithms with A* pathfinding.<br>
+                            <strong>Result:</strong> 95% navigation accuracy in dynamic environments.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2-demo.png" alt="IoT Environmental Monitor">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link live-demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/yourusername/iot-monitor" class="project-link github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">IoT Environmental Monitoring System</h3>
+                        <p class="project-description">
+                            Built a comprehensive IoT system that monitors environmental conditions using multiple sensors, 
+                            with real-time data visualization and alert notifications via web dashboard and mobile app.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS IoT</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-story">
+                            <strong>Challenge:</strong> Reliable data collection from distributed sensors.<br>
+                            <strong>Solution:</strong> Designed fault-tolerant architecture with edge computing.<br>
+                            <strong>Result:</strong> 99.5% uptime monitoring 50+ environmental parameters.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3-demo.png" alt="FPGA Signal Processor">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">FPGA-Based Digital Signal Processor</h3>
+                        <p class="project-description">
+                            Designed and implemented a custom digital signal processing unit on FPGA hardware, 
+                            capable of real-time audio filtering and frequency analysis with low latency performance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">VHDL</span>
+                            <span class="tech-tag">Xilinx</span>
+                            <span class="tech-tag">MATLAB</span>
+                            <span class="tech-tag">C</span>
+                        </div>
+                        <div class="project-story">
+                            <strong>Challenge:</strong> Achieving real-time processing with minimal latency.<br>
+                            <strong>Solution:</strong> Optimized pipeline architecture with parallel processing.<br>
+                            <strong>Result:</strong> Sub-millisecond processing latency for audio signals.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I'm a passionate Computer Engineering student at Brigham Young University with a focus on robotics 
+                        and embedded systems. My journey in engineering has led me to explore the fascinating intersection 
+                        of hardware and software, where I love solving complex problems through innovative solutions.
+                    </p>
+                    <p class="about-description">
+                        My technical interests span from low-level embedded programming and FPGA development to high-level 
+                        software architecture and machine learning applications in robotics. I'm particularly drawn to 
+                        projects that involve real-time systems, autonomous vehicles, and IoT technologies.
+                    </p>
+                    <p class="about-description">
+                        When I'm not coding or tinkering with hardware, you can find me hiking Utah's beautiful mountains, 
+                        playing guitar, or working on personal robotics projects in my home lab. I believe that the best 
+                        engineers are lifelong learners, and I'm always excited to take on new challenges and expand my skillset.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">VHDL</span>
+                                <span class="skill-tag">Assembly</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Technologies & Tools</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">ROS</span>
+                                <span class="skill-tag">Arduino</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Hardware & Systems</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">FPGA</span>
+                                <span class="skill-tag">Microcontrollers</span>
+                                <span class="skill-tag">PCB Design</span>
+                                <span class="skill-tag">Embedded Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">I'm always open to discussing new opportunities, collaborations, or just chatting about technology!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-download">
+                    <a href="assets/your-resume.pdf" class="btn-primary download-btn" target="_blank">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. Built with ❤️ for internship opportunities.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://github.com/yourusername" target="_blank" title="View source code">
+                        <i class="fab fa-github"></i> Source
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

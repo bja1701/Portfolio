@@ -1,0 +1,37 @@
+<!-- Technology Icons and Logos -->
+<!-- This folder is for storing technology logos and icons -->
+<!-- Common technologies for Computer Engineering students: -->
+
+Programming Languages:
+- C/C++ logo
+- Python logo
+- JavaScript logo
+- VHDL/Verilog icon
+- Assembly language icon
+
+Frameworks & Libraries:
+- React logo
+- Node.js logo
+- ROS (Robot Operating System) logo
+- OpenCV logo
+- TensorFlow/PyTorch logos
+
+Hardware & Tools:
+- Arduino logo
+- Raspberry Pi logo
+- FPGA (Xilinx/Altera) logos
+- PCB design tools (KiCad, Altium)
+- Oscilloscope/multimeter icons
+
+Cloud & DevOps:
+- AWS logo
+- Docker logo
+- Git/GitHub logo
+- Linux penguin
+
+You can find professional logos at:
+- Official brand pages of each technology
+- Icon libraries like Font Awesome (already included)
+- Developer resources and press kits
+
+The current website uses CSS-based tech tags, but you can enhance them with actual logos for more visual appeal.
